@@ -1,0 +1,4 @@
+2022-02-01 21:41:29.926 INFO [Test worker] [listener.TestNGListener.onTestStart(TestNGListener.java:15)] - 'testCheckUserCanComposeNewLetter' test is started
+2022-02-01 21:41:50.545 INFO [Test worker] [listener.TestNGListener.onTestSuccess(TestNGListener.java:20)] - 'testCheckUserCanComposeNewLetter' test is PASSED
+2022-02-01 21:41:57.984 INFO [Test worker] [listener.TestNGListener.onTestStart(TestNGListener.java:15)] - 'testCheckUserCanDeleteMessageFromInbox' test is started
+2022-02-01 21:42:15.886 INFO [Test worker] [listener.TestNGListener.onTestSuccess(TestNGListener.java:20)] - 'testCheckUserCanDeleteMessageFromInbox' test is PASSED

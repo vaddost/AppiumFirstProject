@@ -1,0 +1,8 @@
+{
+  "platformName": "Android",
+  "platformVersion": "10.0",
+  "deviceName": "emulator-5554",
+  "appPackage": "com.google.android.gm",
+  "appActivity": "com.google.android.gm.ConversationListActivityGmail",
+  "noReset": "true"
+}

@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'io.spring.dependency-management' version '1.0.1.RELEASE'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+    implementation 'org.testng:testng:7.5'
+    implementation 'io.appium:java-client:7.6.0'
+    implementation 'org.seleniumhq.selenium:selenium-android-driver:2.39.0'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.1'
+    implementation 'org.apache.logging.log4j:log4j-api:2.17.1'
+    implementation 'org.apache.logging.log4j:log4j-core:2.17.1'
+}
+
+test {
+    useTestNG()
+}
+
+dependencyManagement {
+    imports {
+        mavenBom 'org.apache.logging.log4j:log4j-bom:2.17.1'
+    }
+}
